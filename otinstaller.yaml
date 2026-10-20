@@ -21,7 +21,7 @@ outputs:
 runtime:
   kind: docker
   # Filled in by the release workflow with the pushed image's digest.
-  image: ghcr.io/osintverse-community/geo-links@sha256:0000000000000000000000000000000000000000000000000000000000000000
+  image: ghcr.io/osintverse-community/geo-links@sha256:5b8ee6b23783401b6058852ab4797a73d61df822f398448bdd141a8f1cd9cada
   platforms: [linux/amd64, linux/arm64]
   command: ["geo-links", "{coordinates}"]
   output_format: json
